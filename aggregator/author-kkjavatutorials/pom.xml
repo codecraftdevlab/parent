@@ -12,13 +12,15 @@
     <artifactId>author-kkjavatutorials</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>kk001helloworldspringboot</module>
-        <module>kk000java8</module>
+        <module>kk-java8</module>
+        <module>kk-producer-consumer</module>
+        <module>kk-spring-boot</module>
+        <module>kkjava8</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>{java.version}</maven.compiler.source>
+        <maven.compiler.target>{java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

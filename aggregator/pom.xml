@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.4</version>
+        <version>4.0.5</version>
         <relativePath/>
     </parent>
     <groupId>com.company</groupId>
@@ -23,6 +23,7 @@
         <module>author-dailycodebuffer</module>
         <module>author-javatechie</module>
         <module>books-head-first-design-patterns</module>
+        <module>author-kkjavatutorials</module>
     </modules>
 
     <properties>

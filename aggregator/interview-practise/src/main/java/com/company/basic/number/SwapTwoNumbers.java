@@ -2,8 +2,8 @@ package com.company.basic.number;
 
 public class SwapTwoNumbers {
 
-    static void main() {
-        SwapTwoNumbers  swapTwoNumbers = new SwapTwoNumbers();
+    public static void main() {
+        SwapTwoNumbers swapTwoNumbers = new SwapTwoNumbers();
         int a = 1;
         int b = 2;
         swapTwoNumbers.swap(a, b);

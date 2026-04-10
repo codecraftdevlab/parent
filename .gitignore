@@ -9,6 +9,65 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+### Maven ###
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+### Gradle ###
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+gradlew
+gradlew.bat
+
+# Gradle cache
+**/.gradle/
+**/build/
+
+### Spring Boot ###
+*.log
+*.log.*
+logs/
+spring.log
+
+# Application properties (if sensitive)
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# Profiles / env overrides
+.env
+.env.*
+*.local
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# JVM crash logs
+*.hprof
+
+### Testing ###
+/test-output/
+/surefire-reports/
+/failsafe-reports/
+/coverage/
+/jacoco.exec
+
 ### STS ###
 .apt_generated
 .classpath
@@ -19,10 +78,24 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
+
+### Eclipse ###
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
 
 ### NetBeans ###
 /nbproject/private/
@@ -30,25 +103,17 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
 
-# General
+### OS Files ###
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
 Icon
 
-# Thumbnails
 ._*
-
-# Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -56,10 +121,36 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### Logs & temp ###
+*.tmp
+*.temp
+*.swp
+*.lock
+*.pid
+
+### Docker ###
+docker-compose.override.yml
+
+### Kubernetes ###
+*.kubeconfig
+
+### Misc ###
+*.orig
+*.rej
+
+# IDE-specific caches
+.cache/
+.history/
+
+# Node (if frontend inside project)
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>kk001helloworldspringboot</module>
+        <module>kk000java8</module>
     </modules>
 
     <properties>
@@ -20,5 +21,18 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot-maven-plugin}</version>
+                <configuration>
+                    <mainClass>com.company.KK001HelloWorldSpringBootApplication</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

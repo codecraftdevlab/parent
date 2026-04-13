@@ -24,6 +24,7 @@
         <module>author-javatechie</module>
         <module>books-head-first-design-patterns</module>
         <module>author-kkjavatutorials</module>
+        <module>author-amigoscode</module>
     </modules>
 
     <properties>

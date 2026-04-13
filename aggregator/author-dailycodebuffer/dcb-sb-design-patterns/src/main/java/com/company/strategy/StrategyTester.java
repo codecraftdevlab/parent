@@ -1,5 +1,9 @@
 package com.company.strategy;
 
+import com.company.strategy.impl.AdditionStrategy;
+import com.company.strategy.impl.MultiplicationStrategy;
+import com.company.strategy.impl.SubtractionStrategy;
+
 public class StrategyTester {
 
     public static void main(String[] args) {

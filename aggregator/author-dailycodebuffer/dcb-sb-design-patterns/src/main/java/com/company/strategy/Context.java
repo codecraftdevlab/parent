@@ -1,5 +1,7 @@
 package com.company.strategy;
 
+import com.company.strategy.impl.Strategy;
+
 public class Context {
 
     private final Strategy strategy;

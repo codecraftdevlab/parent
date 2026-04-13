@@ -1,4 +1,4 @@
-package com.company.strategy;
+package com.company.strategy.impl;
 
 public class AdditionStrategy implements Strategy {
 

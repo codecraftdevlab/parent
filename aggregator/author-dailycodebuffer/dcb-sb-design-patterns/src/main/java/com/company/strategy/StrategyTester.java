@@ -1,6 +1,6 @@
 package com.company.strategy;
 
-public class Tester {
+public class StrategyTester {
 
     public static void main(String[] args) {
         System.out.println(new Context(new AdditionStrategy()).executeStrategy(10, 5));

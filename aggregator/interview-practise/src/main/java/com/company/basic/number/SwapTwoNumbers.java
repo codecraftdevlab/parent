@@ -2,7 +2,7 @@ package com.company.basic.number;
 
 public class SwapTwoNumbers {
 
-    public static void main() {
+    public static void main(String[] args) {
         SwapTwoNumbers swapTwoNumbers = new SwapTwoNumbers();
         int a = 1;
         int b = 2;

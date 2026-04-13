@@ -25,6 +25,7 @@
         <module>books-head-first-design-patterns</module>
         <module>author-kkjavatutorials</module>
         <module>author-amigoscode</module>
+        <module>author-dailycodebuffer/dcb-sb-design-patterns</module>
     </modules>
 
     <properties>

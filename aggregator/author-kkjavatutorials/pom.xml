@@ -12,10 +12,8 @@
     <artifactId>author-kkjavatutorials</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>kk-java8</module>
         <module>kk-producer-consumer</module>
         <module>kk-spring-boot</module>
-        <module>kkjava8</module>
     </modules>
 
     <properties>

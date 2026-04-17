@@ -17,7 +17,6 @@
 
     <modules>
         <module>udemy</module>
-        <module>java-features</module>
         <module>leetcode</module>
         <module>interview-practise</module>
         <module>author-dailycodebuffer</module>
